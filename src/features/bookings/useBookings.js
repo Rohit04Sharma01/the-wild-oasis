@@ -43,6 +43,5 @@ export function useBookings() {
     });
   }
 
-  console.log(bookings);
   return { isLoading, error, bookings, count };
 }
